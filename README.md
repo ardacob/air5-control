@@ -91,6 +91,10 @@ Otomatik başlatma kayıtları yalnızca mevcut kullanıcıdadır:
 
 Otomatik başlatmayı menüden kapat, **Çıkış** yap ve uygulama klasörünü sil. Tercih kaydı küçük bir kullanıcı ayarı olarak kalabilir.
 
+## Bütün sürümler
+
+[Ayrıntılı sürüm geçmişi](docs/RELEASE-HISTORY.md), 1.0–1.6 arasındaki her sürümün içeriğini, neden değiştiğini ve test sonuçlarını açıklar. [Eski kaynaklar](history/README.md) tarihçe olarak korunur. Çalıştırılabilir indirme bağlantısı yalnızca son sürüme aittir.
+
 ## Katkı ve lisans
 
 Hata bildirirken sürümü, Windows sürümünü, firmware'i, yeniden üretme adımlarını ve gerekirse kişisel bilgilerden arındırılmış log bölümünü ekle. APK, kişisel cihaz kimlikleri veya tam sistem dökümleri gönderme.

@@ -59,3 +59,7 @@ Startup uses HKCU\Software\Microsoft\Windows\CurrentVersion\Run (Air5Control), w
 - .github/workflows/build.yml — Windows build/test workflow.
 
 [MIT License](LICENSE). SOUNDPEATS and product names belong to their respective owners.
+
+## Version history
+
+[Detailed history](docs/RELEASE-HISTORY.md) describes every application version from 1.0 through 1.6. [Historical source snapshots](history/README.md) retain their contents. Only the latest release has an executable download; older binaries are not distributed.
