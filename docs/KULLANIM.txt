@@ -1,0 +1,56 @@
+AIR5 CONTROL 1.6 — SON PAKET
+SOUNDPEATS Air5 Pro için Windows uygulaması
+
+BAŞLATMA
+ZIP'i kalıcı bir klasöre çıkartıp Air5-Control.exe'yi çalıştır.
+Kurulum veya yönetici yetkisi gerekmez.
+Kulaklık önceden Windows Bluetooth ayarlarında eşleştirilmiş olsun.
+Uygulama doğrudan sistem tepsisinde açılır.
+Simge görünmüyorsa saatin yanındaki gizli simgeler bölümüne bak.
+
+TEPSİ MENÜSÜ
+Simgeye çift tık: ana pencereyi aç.
+Sağ tık: ANC, Şeffaflık, Normal ve Oyun modu; pil bilgileri ve yenileme.
+Windows ile başlat: otomatik başlatmayı aç/kapat.
+Çıkış: uygulamayı tamamen kapat.
+Penceredeki X veya küçült düğmesi uygulamayı tepsiye gizler.
+
+OTOMATİK BAĞLANTI
+Kulaklık kapalıyken uygulama açık kalır.
+Önce Windows ses çıkışının hazır olmasını bekler, ardından kontrol bağlantısını açar.
+Ses bağlantısı ve kontrol bağlantısı arayüzde ayrı gösterilir.
+Ses çıkışı en az 8 saniye kararlı görünmelidir; zamanlama birkaç saniye uzayabilir.
+Bağlantı kopunca kontrol kanalı bırakılır; ses çıkışı geri gelince yeniden denenir.
+Başarısız denemeler arasında en az 15 saniye beklenir.
+Kulaklık modu, oyun modu veya EQ ayarı yeniden bağlanırken otomatik uygulanmaz.
+Uygulama varsayılan Windows ses çıkışını değiştirmez.
+
+PİL VE SES KONTROLLERİ
+Sol ve sağ kulaklık pili; cihaz bildiriyorsa şarj kutusu pili gösterilir.
+Pil ve mod bilgileri yaklaşık 30 saniyede bir yenilenir.
+Kutu pili cihazın bildirdiği son değerdir. Bilgi alınamazsa tire görünür.
+Mod değişiklikleri cihazdan yeniden okunarak doğrulanır.
+Oyun modu durumu okunamazsa düğmesi etkinleştirilmez.
+EQ, adaptif EQ veya ana kazanç komutu gönderilmez.
+Normal ile ANC arasındaki bas farkı kulaklığın kendi dokunmatik kontrolünde de gözlenmiştir.
+
+GÜNCELLEME VE KALDIRMA
+Eski sürümü önce tepsi menüsünden Çıkış ile kapat.
+Bu paketi kalıcı konumuna çıkartıp yeni EXE'yi bir kez çalıştır.
+Otomatik başlatma açıksa yeni konum kaydedilir.
+Klasörü taşırsan EXE'yi yeni konumdan bir kez çalıştır.
+Silmeden önce Windows ile başlat seçeneğini kapatıp Çıkış yap.
+
+DOĞRULAMA
+17 Ekim 2026'da kullanıcı kendi Air5 Pro'sunda:
+- Kutuya koyup çıkardıktan sonra otomatik yeniden bağlantıyı,
+- Video sesinin gelmesini,
+- Oyun modu açma/kapatmayı doğruladı.
+Ses hazır → bekleme → kontrol bağlantısı sırası ve oyun durumu logda da doğrulandı.
+Bu paketteki EXE, kullanıcının test ettiği v1.6 ile aynı dosyadır.
+
+TANI VE KAYNAK
+connection.log bağlantı ve oyun modu olaylarını, air5.log hata ayrıntılarını kaydeder.
+Bu dosyalar gerektiğinde EXE'nin yanına yazılır; eski test logları pakete dahil değildir.
+src ve Derle.ps1 kaynak/derleme dosyalarıdır; çalıştırmak için EXE yeterlidir.
+Teknik ayrıntılar TEKNIK.txt içindedir.

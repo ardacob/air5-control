@@ -1,0 +1,13 @@
+*.exe
+*.zip
+*.log
+*.log.previous
+*-test.txt
+*-test-error.txt
+startup-error.txt
+self-test.txt
+Onizleme.png
+artifacts/
+.vs/
+bin/
+obj/
